@@ -183,3 +183,33 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+
+.im2{
+    display: flex;
+    margin-top: 1.3vw;
+}
+
+.i1 img{
+    width: 47.5vw;
+}
+
+.i2 img{
+    width: 23.3vw;
+}
+
+.i2{
+    display: flex;
+    flex-direction: column;
+}
+
+.i22{
+    margin-top: 0.9vw;
+}
+
+.i22 img{
+    margin-left: 1.3vw;
+}
+
+.i222 img{
+    margin-left: 1.3vw;
+}
