@@ -12,7 +12,7 @@
 }
 
 .um img{
-    width: 7vw;
+    width: 11vw;
 }
 
 .um b{
@@ -163,7 +163,7 @@ nav{
     background-color: blueviolet transparent;
     width: 98%;
     margin-left: 1vw;
-    margin-top: 4vw;
+    margin-top: 6vw;
 }
 
 .galeria b{
@@ -212,3 +212,310 @@ nav{
 .i222 img{
     margin-left: 1.3vw;
 }
+
+.cursos img{
+    border-radius: 10px;
+    width: 21.8vw;
+}
+
+.bb{
+    color: rgb(20, 9, 173);
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+}
+
+.cont{
+    margin-top: 3vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rela b{
+    color: rgb(255, 255, 255);
+    font-size: 1.6vw;
+}
+
+.rela div{
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.9),
+        rgba(20, 9, 173,0)
+    );
+
+    width: 21.6vw;
+    padding: 1.5vw;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.v{
+    position: relative;
+    transform: translateY(-5.2vw);
+    left: 1.6vw;
+}
+
+.b{
+    position: relative;
+    transform: translateY(-10.2vw);
+    left: 26.3vw;
+}
+
+.n{
+    position: relative;
+    transform: translateY(-15.1vw);
+    left: 51.1vw;
+}
+
+.m{
+    position: relative;
+    left: 75.9vw;
+    margin-top: -20vw;
+}
+
+.v b:hover{
+    color: rgb(20, 9, 173);
+}
+
+.b b:hover{
+    color: rgb(20, 9, 173);
+}
+
+.n b:hover{
+    color: rgb(20, 9, 173);
+}
+
+.m b:hover{
+    color: rgb(20, 9, 173);
+}
+
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.carousel-slides {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    min-height: 380px;
+    /* Garante estabilidade na troca de slides */
+}
+
+.depoimento-slide {
+    display: none;
+    /* Esconde por padrão */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    animation: fadeEffect 0.6s ease-in-out;
+}
+
+.depoimento-slide.active {
+    display: flex;
+    /* Mostra apenas o ativo */
+}
+
+/* Caixa azul do depoimento */
+.depoimento-texto-box {
+    background-color: #163f8a;
+    color: #ffffff;
+    padding: 40px;
+    width: 60%;
+    text-align: left;
+    border-radius: 4px 0 0 4px;
+    box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.texto-depoimento {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+.linha-separadora {
+    border: 0;
+    height: 1px;
+    background: #f1b434;
+    /* Linha amarela idêntica ao original */
+    margin-bottom: 20px;
+}
+
+.autor-depoimento {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* Caixa da Imagem */
+.depoimento-img-box {
+    width: 35%;
+    background-color: transparent;
+}
+
+.foto-perfil {
+    width: 100%;
+    max-height: 380px;
+    object-fit: cover;
+    display: block;
+    border-radius: 0 4px 4px 0;
+}
+
+/* Botões de Seta */
+.arrow-btn {
+    background-color: #163f8a;
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 0 15px;
+    transition: background 0.3s, transform 0.2s;
+    z-index: 10;
+}
+
+.arrow-btn:hover {
+    background-color: #f1b434;
+    color: #163f8a;
+    transform: scale(1.1);
+}
+
+.testimonial-container {
+    position: relative;
+    background-color: #eef5fc;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 480px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+
+/* Caixa de texto azul */
+.testimonial-box {
+    background-color: #143483;
+    color: #ffffff;
+    width: 65%;
+    padding: 45px 40px;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(20, 52, 131, 0.15);
+    z-index: 2;
+    position: relative;
+}
+
+.testimonial-text {
+    font-size: 1.15rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+/* Linha amarela divisória */
+.divider {
+    height: 3px;
+    background-color: #f1a822;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Rodapé com nome do autor */
+.author-info {
+    font-size: 1.05rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.author-info span {
+    font-weight: normal;
+    color: #b3c5eb;
+}
+
+/* Container da Foto da Aluna */
+.profile-container {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    width: 40%;
+    height: 110%;
+    z-index: 3;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.profile-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    /* Caso queira colocar a imagem real, basta substituir o src no HTML abaixo */
+}
+
+/* Marcadores do carrossel inferior */
+.carousel-dots {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    background-color: #9cb6df;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.dot.active {
+    background-color: #143483;
+    transform: scale(1.2);
+}
+
+.dot.outline {
+    background-color: transparent;
+    border: 2px solid #143483;
+}
+
+@media (max-width: 768px) {
+    .testimonial-container {
+        flex-direction: column;
+        padding: 20px;
+        min-height: auto;
+    }
+
+    .testimonial-box {
+        width: 100%;
+        padding: 30px 20px;
+        margin-bottom: 30px;
+    }
+
+    .profile-container {
+        position: relative;
+        width: 70%;
+        right: auto;
+        bottom: auto;
+        height: 300px;
+    }
+
+    .carousel-dots {
+        bottom: -25px;
+    }
+}
+
+.bord{
+    color: rgb(20, 9, 173);
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+}
+

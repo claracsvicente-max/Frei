@@ -15,7 +15,7 @@
 
         <nav>
             <div class="um">
-                <img src="logo frei png.avif" alt="">
+                <img src="log frei.png" alt="">
                 <div>
                     <b>INSTITUTO SOCIAL</b><br>
                     <b>NOSSA SENHORA</b><br>
@@ -145,11 +145,154 @@
         </section>
 
         <section class="cursos">
-            <div>
-                <b></b>
+            <div class="bb">
+                <b>Cursos</b>
+            </div>
+
+            <div class="cont">
+                <div>
+                    <img src="curso tecnico.avif" alt="">
+                </div>
+                
+                <div>
+                    <img src="curso cedesp.avif" alt="">
+                </div>
+
+                <div>
+                    <img src="curso de qualificação.avif" alt="">
+                </div>
+
+                <div>
+                    <img src="curso livre.avif" alt="">
+                </div>
+            </div>
+
+            <div class="rela">
+                <div class="v">
+                    <b>Cursos Técnicos</b>
+                </div>
+
+                <div class="b">
+                    <b>Cursos no CEDESP</b>
+                </div>
+
+                <div class="n">
+                    <b>Cursos de qualificação</b>
+                </div>
+
+                <div class="m">
+                    <b>Cursos Livres</b>
+                </div>
             </div>
         </section>
 
+        <div class="bord">
+            <b>Depoimentos</b>
+        </div>
+
+        <section class="depoimentos-section">
+
+        <div class="carousel-container">
+            <button class="arrow-btn left-arrow" onclick="mudarSlide(-1)">&#10094;</button>
+
+            <div class="carousel-slides">
+
+                <div class="depoimento-slide active">
+                    <div class="depoimento-texto-box">
+                        <p class="texto-depoimento">
+                            “Estudar aqui foi um divisor de águas na minha vida. A escola não só me deu base técnica,
+                            mas contribuiu diretamente para a formação do profissional e do cidadão que sou hoje. Foi
+                            aqui que tive meu primeiro direcionamento e minha primeira oportunidade no mercado de
+                            trabalho, que marcou o início da minha trajetória. Hoje, como Diretor Executivo no BTG
+                            Pactual, deixo o recado: tenham paciência, foquem no processo e estejam sempre abertos a
+                            aprender. O crescimento vem com o tempo e com a capacidade de se adaptar às oportunidades.”
+                        </p>
+                        <hr class="linha-separadora">
+                        <p class="autor-depoimento">Ricardo Hessel de Araújo - Ex-aluno de Informática, 2006</p>
+                    </div>
+                    <div class="depoimento-img-box">
+                        <img src="Sem títuloRICARDO PNG.avif" alt="Ricardo Hessel de Araújo" class="foto-perfil">
+                    </div>
+                </div>
+
+                <div class="depoimento-slide">
+                    <div class="depoimento-texto-box">
+                        <p class="texto-depoimento">
+                            “O Frei permitiu que eu descobrisse a área profissional que sou apaixonado até hoje.
+                            Agora sou professor de Informática no Instituto, e agradeço a oportunidade que recebi de
+                            lecionar aqui.
+                            Unindo tecnologia, educação e moral, podemos reorientar nosso ensejo em nos melhorar, e,
+                            consequentemente, melhorar a vida de nosso próximo.”
+                        </p>
+                        <hr class="linha-separadora">
+                        <p class="autor-depoimento">Bruno de Oliveira - Cursos de Informática 2005 e Inglês 2006</p>
+                    </div>
+                    <div class="depoimento-img-box">
+                        <img src="DEPOIMENTO PROF BRUNO_edited.avif" alt="Bruno de Oliveira" class="foto-perfil">
+                    </div>
+                </div>
+
+                <div class="depoimento-slide">
+                    <div class="depoimento-texto-box">
+                        <p class="texto-depoimento">
+                            "Fiz o curso em 2022 e hoje curso Ciências Contábeis no Senac. Apesar de não ter seguido na
+                            área do
+                            curso, o Frei me abriu muitas portas em relação ao <em>networking</em> tanto com alunos
+                            quanto com
+                            professores, e eu me sinto imensamente grata por ter participado de um ambiente tão
+                            acolhedor. É uma
+                            experiência pra vida toda. Agradeço pela oportunidade de retornar com meu conhecimento
+                            adquirido com
+                            o passar dos anos e compartilhá-lo com os novos alunos."
+                        </p>
+                        <hr class="linha-separadora">
+                        <p class="autor-depoimento">Júlia Freitas da Mata - Ex-aluna de Comunicação Visual, 2022</p>
+                    </div>
+                    <div class="depoimento-img-box">
+                        <img src="julia.avif" alt="Júlia Freitas da Mata" class="foto-perfil">
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="arrow-btn right-arrow" onclick="mudarSlide(1)">&#10095;</button>
+        </div>
+        </section>
+
+        <script>
+        let slideIndex = 0;
+        const slides = document.querySelectorAll('.depoimento-slide');
+
+        function mostrarSlide(index) {
+            if (index >= slides.length) { slideIndex = 0; }
+            if (index < 0) { slideIndex = slides.length - 1; }
+            slides.forEach(slide => slide.classList.remove('active'));
+            slides[slideIndex].classList.add('active');
+        }
+
+        function mudarSlide(direcao) {
+            slideIndex += direcao;
+            mostrarSlide(slideIndex);
+        }
+
+        setInterval(() => {
+            mudarSlide(1);
+        }, 10000);
+        </script>
+
+        <section class="padaria">
+            <div>
+                <b>Conheça a Padaria do Frei</b>
+            </div>
+
+            <div>
+                <p>Todos os dias, nossa padaria traz para você produtos fresquinhos, feitos com amor e cuidado. Do tradicional pão francês aos 
+                croissants e bolos caseiros, cada item é preparado com dedicação para garantir sabor e qualidade. Ao longo do ano, abrimos nosso 
+                forno para produzir delícias especiais que celebram as datas festivas. No final do ano, temos o famoso Panetone do Frei, e em junho,
+                o tradicional Pão de Santo Antônio, uma verdadeira tradição que aquece corações. Venha nos visitar e saborear essas delícias!</p>
+                <img src="" alt="">
+            </div>
+        </section>
     </section>
 
 </body>
