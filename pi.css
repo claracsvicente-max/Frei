@@ -519,3 +519,103 @@ nav{
     margin-top: 5vw;
 }
 
+.padaria b{
+    color: rgb(20, 9, 173);
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+}
+
+.padaria img{
+    width: 50vw;
+}
+
+.iii{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+}
+
+.isi p{
+    font-size: 1.3vw;
+    text-align: center;
+}
+
+.isi{
+    margin-top: 3vw;
+}
+
+.inf p{
+    font-size: 1vw;
+    text-align: center;
+}
+
+.inf{
+    margin-top: 1vw;
+}
+
+.parceiros b{
+    color: rgb(20, 9, 173);
+    font-size: 2.5vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+}
+
+.parceiros div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.vem{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vw;
+}
+
+.r1{
+    background-color: #9cb6df  transparent;
+    width: 12vw;
+}
+
+.r1 img{
+    width: 12vw;
+}
+
+.freei{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+}
+
+.icons img{
+    width: 4vw;
+}
+
+.icons{
+    margin-top: 3vw;
+}
+
+.r2 b{
+    font-size: 1.8vw;
+}
+
+.r2 p{
+    font-size: 1.2vw;
+}
+
+.r3 p{
+    font-size: 1.2vw;
+    margin-top: 0.5vw;
+}
+
+.rodape{
+    margin-top: 3vw;
+    background-color: #9cb6df;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3vw;
+}
